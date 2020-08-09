@@ -235,6 +235,13 @@ body {
     line-height: 43px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    &:hover {
+        background-color: #fff;
+        color: #3ab16f;
+        border-color: #3ab16f;
+    }
 }
 .goods__more {
     display: block;
@@ -244,6 +251,11 @@ body {
     background-color: #fff;
     text-align: center;
     line-height: 43px;
+    transition: 0.4s;
+    &:hover {
+        color: #fff;
+        background-color: #b83b11;
+    }
 }
 .goods__attention {
     color: #ab310c;
@@ -429,6 +441,12 @@ body {
         max-width: 329px;
         width: 100%;
         height: 43px;
+        transition: 0.4s;
+        &:hover {
+            background-color: #fff;
+            color: #de0d08;
+            border: 1px solid #de0d08;
+        }
     }
     @media(max-width:729px) {
         flex-direction: column;
